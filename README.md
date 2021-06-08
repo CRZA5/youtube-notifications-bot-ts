@@ -89,13 +89,13 @@ NODE_ENV=development or production
 Pull the image
 
 ```bash
- docker pull ghcr.io/crza5/CRZA5/youtube-notifications-bot-ts:latest
+ docker pull ghcr.io/crza5/youtube-notifications-bot-ts:latest
 ```
 
 Run the bot
 
 ```bash
-  docker run --restart=always -d --env-file .env ghcr.io/crza5/CRZA5/youtube-notifications-bot-ts:latest
+  docker run --restart=always -d --env-file .env ghcr.io/crza5/youtube-notifications-bot-ts:latest
 ```
 
 # License
