@@ -1,0 +1,32 @@
+{
+  "name": "youtube-notifications-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/CRZA5/youtube-notifications-bot.git",
+  "author": "CRZA <contact@crza.dev>",
+  "description": "A bot to send your youtube channel notifications to discord",
+  "license": "MIT",
+  "scripts": {
+    "start": "node -r dotenv/config dist",
+    "watch": "nodemon .",
+    "build": "tsc",
+    "build-prod": "tsc -p tsconfig.production.json"
+  },
+  "devDependencies": {
+    "@types/mongoose": "5.10.2",
+    "@types/node": "^15.12.2",
+    "@types/node-fetch": "^2.5.10",
+    "@types/xml2js": "^0.4.8",
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.7",
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "@typegoose/typegoose": "^7.6.1",
+    "discord.js": "^12.5.3",
+    "leeks.js": "0.0.9",
+    "mongoose": "5.10.18",
+    "node-fetch": "^2.6.1",
+    "xml2js": "^0.4.23"
+  }
+}
